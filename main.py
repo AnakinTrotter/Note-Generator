@@ -11,7 +11,6 @@ def gen_note():
     note = random.choice(notes)
     octave = str(random.randint(3, 6))
     accidental = random.randint(0, 2)
-    random.seed()
     if accidental == 0:
         accidental = "#"
     elif accidental == 1:
